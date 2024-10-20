@@ -176,7 +176,7 @@
             Controls.Add(buttonOutput_PDA);
             MaximizeBox = false;
             Name = "FormMain";
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 0 | Вариант 14 | Пузина Д. А.";
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_PDA).EndInit();
             ResumeLayout(false);
