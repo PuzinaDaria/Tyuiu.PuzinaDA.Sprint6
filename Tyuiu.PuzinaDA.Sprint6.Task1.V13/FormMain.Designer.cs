@@ -173,7 +173,7 @@
             Controls.Add(textBoxCond_PDA);
             Controls.Add(textBoxCondition_PDA);
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 2 | Вариант 15 | Пузина Д. А.";
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_PDA).EndInit();
             ResumeLayout(false);
             PerformLayout();
