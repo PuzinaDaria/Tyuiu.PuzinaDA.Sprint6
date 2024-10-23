@@ -10,6 +10,10 @@ namespace Tyuiu.PuzinaDA.Sprint6.Task4.V13.Lib
             double y;
             for (int i = 0; i < len; i++)
             {
+                if (Math.Cos(startValue)+1 == 0)
+                {
+                    mass[i] = 0;
+                }
                 y = Math.Round((3 * startValue + 2 - ((2 * startValue - startValue) / (Math.Cos(startValue) + 1))), 2);
                 mass[i] = y;
                 startValue++;
