@@ -11,8 +11,7 @@ namespace Tyuiu.PuzinaDA.Sprint6.Task6.V5
         DataService ds = new DataService();
         private void buttonDown_PDA_Click(object sender, EventArgs e)
         {
-            string str = "l";
-            textBoxOutPut_PDA.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxOutPut_PDA.Text = ds.CollectTextFromFile(openFilePath);
         }
         private void buttonQuestion_PDA_Click(object sender, EventArgs e)
         {

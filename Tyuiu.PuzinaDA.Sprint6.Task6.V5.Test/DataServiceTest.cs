@@ -8,10 +8,9 @@ namespace Tyuiu.PuzinaDA.Sprint6.Task6.V5.Test
         public void Checked()
         {
             DataService ds = new DataService();
-            string str = "l";
             string path = "InPutDataFileTask6V5.txt";
             string wait = "ulzPXa sMLuPzlvneiTo tfouGdncXlJ";
-            string res = ds.CollectTextFromFile(str, path);
+            string res = ds.CollectTextFromFile(path);
             Assert.AreEqual(wait, res);
         }
     }
