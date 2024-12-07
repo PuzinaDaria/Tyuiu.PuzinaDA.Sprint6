@@ -40,10 +40,14 @@ namespace Tyuiu.PuzinaDA.Sprint6.Task7.V25.Lib
                 {
                     for (int j = 0; j < column; j++)
                     {
-                        if ((matrix[i, j] % 5) == 0)
+                        if(j == 6)
                         {
-                            matrix[i, j] = 2;
+                            if ((matrix[i, j] % 5) == 0)
+                            {
+                                matrix[i, j] = 2;
+                            }
                         }
+                        
 
                     }
                 }
