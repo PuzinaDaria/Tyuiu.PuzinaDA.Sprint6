@@ -101,7 +101,7 @@ namespace Tyuiu.PuzinaDA.Sprint6.Task7.V25
             string str = "";
             for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < column; j++)
+                for (int j = 0; j < column-1; j++)
                 {
                     if (j != column - 1)
                     {
